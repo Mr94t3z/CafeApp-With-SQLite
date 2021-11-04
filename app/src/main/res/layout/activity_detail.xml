@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context=".DetailActivity"
+    >
+
+    <ImageView
+        android:id="@+id/detail_photo"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:srcCompat="@color/cafe"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/detail_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-55dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Judul"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:text="Deskripsi"
+        />
+
+    <TextView
+        android:id="@+id/detail_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="Isi Deskripsi"
+    />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

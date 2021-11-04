@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    >
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="410dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="260dp"
+        card_view:cardCornerRadius="4dp"
+        >
+
+        <ImageView
+            android:id="@+id/image_photo"
+            android:layout_width="410dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@color/cafe"
+            />
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="Food Name"
+            />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Harga"
+            />
+
+        <TextView
+            android:id="@+id/food_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Rp. 10000"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
