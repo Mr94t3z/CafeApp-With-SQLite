@@ -1,29 +1,27 @@
 package com.mtaopik.cafeapp;
 
 import android.content.Context;
-import android.os.Bundle;
-import android.widget.GridView;
-
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
+import android.database.Cursor;
 
 import java.util.ArrayList;
 
-public class FoodData extends AppCompatActivity {
-    CardView cardView;
-    ArrayList<Food> list;
-    FoodsAdapter adapter = null;
+public class FoodData {
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+    public static ArrayList<Food> getData(Context context) {
+        ArrayList<Food> list = new ArrayList<>();
 
-        cardView = (CardView) findViewById(R.id.card_view);
-        list = new ArrayList<>();
-        adapter = new FoodsAdapter(this, R.layout.food_item, list);
+        Cursor cursor = AddActivity.sqLiteHelper.getData("SELECT * FROM FOOD");
+        list.clear();
+        while (cursor.moveToNext()) {
+            int id = cursor.getInt(0);
+            String judul = cursor.getString(1);
+            String harga = cursor.getString(2);
+            String deskripsi = cursor.getString(3);
+            byte[] image = cursor.getBlob(4);
 
+            list.add(new Food(id, judul, harga, deskripsi, image));
+        }
+        return list;
     }
 }
 

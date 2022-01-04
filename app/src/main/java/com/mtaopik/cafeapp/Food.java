@@ -3,10 +3,10 @@ package com.mtaopik.cafeapp;
 import android.graphics.drawable.Drawable;
 
 public class Food {
-    private int id;
-    private String judul;
-    private String harga;
-    private String deskripsi;
+    int id;
+    String judul;
+    String harga;
+    String deskripsi;
     byte[] image;
 
     public  Food (int id, String judul, String harga, String deskripsi, byte[] image) {

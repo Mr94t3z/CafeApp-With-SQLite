@@ -27,7 +27,7 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:inputType="text"
+            android:inputType="textPersonName"
             android:hint="Harga"
             android:layout_below="@+id/edtJudul"
             />
@@ -39,7 +39,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:hint="Deskripsi"
-            android:inputType="textLongMessage"
+            android:inputType="textPersonName"
             android:layout_below="@+id/edtHarga"
             />
 
