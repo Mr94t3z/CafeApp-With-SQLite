@@ -1,11 +1,11 @@
 package com.mtaopik.cafeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity {
@@ -24,9 +24,12 @@ public class DetailActivity extends AppCompatActivity {
         if (food != null) {
             TextView judulCF = findViewById(R.id.detail_judul);
             TextView deskripsiCF = findViewById(R.id.detail_deskripsi);
-            ImageView image = findViewById(R.id.detail_photo);
 
-//            image.setImageDrawable(food.image);
+            byte[] blob = food.getImage();
+            Bitmap bmp = BitmapFactory.decodeByteArray(blob,0, blob.length);
+            ImageView image = findViewById(R.id.detail_photo);
+            image.setImageBitmap(bmp);
+
             judulCF.setText(food.judul);
             deskripsiCF.setText(food.deskripsi);
         }

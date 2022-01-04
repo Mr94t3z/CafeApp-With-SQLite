@@ -2,7 +2,6 @@ package com.mtaopik.cafeapp;
 
 import android.content.Context;
 import android.database.Cursor;
-
 import java.util.ArrayList;
 
 public class FoodData {

@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:inputType="textPersonName"
-            android:hint="Judul"
+            android:hint="Nama Menu"
             />
 
         <EditText

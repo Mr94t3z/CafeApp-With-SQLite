@@ -1,7 +1,5 @@
 package com.mtaopik.cafeapp;
 
-import android.graphics.drawable.Drawable;
-
 public class Food {
     int id;
     String judul;

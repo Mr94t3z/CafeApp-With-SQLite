@@ -19,7 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         database.execSQL(sql);
     }
 
-    public void insertData(String judul, String deskripsi, String harga, byte[] image) {
+    public void insertData(String judul, String harga, String deskripsi, byte[] image) {
         SQLiteDatabase database = getWritableDatabase();
         String sql = "INSERT INTO FOOD VALUES (NULL, ?, ?, ?, ?)";
 
