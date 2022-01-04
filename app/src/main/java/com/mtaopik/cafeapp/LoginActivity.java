@@ -39,12 +39,12 @@ public class LoginActivity extends AppCompatActivity {
         Log.d("print", String.valueOf(password.equals("1q2w3e4r")));
 
         if (username.equals("Muhamad Taopik") && password.equals("1q2w3e4r")) {
-            Log.d("success", "Sukses Login!");
-            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            Log.d("success", "Login Sukses!");
+            Intent intent = new Intent(getApplicationContext(), AddActivity.class);
             startActivity(intent);
             this.finish();
         }  else {
-            Log.d("failed", "Gagal login!");
+            Log.d("failed", "Login Gagal!");
             Toast toast = Toast.makeText(getApplicationContext(), "Username atau password salah!", Toast.LENGTH_SHORT);
             toast.show();
         }
