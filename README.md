@@ -5,7 +5,7 @@ Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah **Prak
 
 # Download Application
 
-- Klik [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) untuk `mengunduh` file.
+- Klik [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) untuk `mengunduh` aplikasi.
 
 # Results
 ![Results](https://img.shields.io/badge/Results-CafeApp%20With%20SQLite-blue)
