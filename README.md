@@ -1,5 +1,5 @@
 # CafeApp With SQLite
-![UAS_PPAM](https://img.shields.io/badge/UTS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-CafeApp-blue)
+![UAS_PPAM](https://img.shields.io/badge/UAS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-CafeApp-blue)
 
 > Muhamad Taopik (1197050081)
 
