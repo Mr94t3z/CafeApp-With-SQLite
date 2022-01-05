@@ -1,3 +1,9 @@
+<!--
+  ~ Created by Muhamad Taopik on 1/5/22, 6:12 PM
+  ~ Copyright (c) 2022 . All rights reserved.
+  ~ Last modified 1/5/22, 11:17 AM
+  -->
+
 <resources>
-    <string name="app_name">Cafe App</string>
+    <string name="app_name">CafeApp</string>
 </resources>

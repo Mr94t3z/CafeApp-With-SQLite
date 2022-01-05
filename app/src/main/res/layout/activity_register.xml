@@ -2,7 +2,7 @@
 <!--
   ~ Created by Muhamad Taopik on 1/5/22, 6:11 PM
   ~ Copyright (c) 2022 . All rights reserved.
-  ~ Last modified 1/5/22, 8:34 AM
+  ~ Last modified 1/5/22, 10:27 AM
   -->
 
 <androidx.appcompat.widget.LinearLayoutCompat
@@ -13,7 +13,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="48dp"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <TextView
         android:id="@+id/CafeApp"
@@ -35,8 +35,22 @@
         />
 
     <TextView
-        android:id="@+id/email_label"
+        android:id="@+id/username_label"
         android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/email_label"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
@@ -64,35 +78,13 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login_button"
+        android:id="@+id/Register"
         android:layout_marginTop="40dp"
         android:textColor="@color/white"
         android:background="@color/cafe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign In"
-        />
-
-    <TextView
-        android:id="@+id/ForgotPassword"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Forgot Password?"
-        />
-
-    <TextView
-        android:id="@+id/Register"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="-20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:textStyle="bold"
         android:text="Register"
         />
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>

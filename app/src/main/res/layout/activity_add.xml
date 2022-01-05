@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<!--
+  ~ Created by Muhamad Taopik on 1/5/22, 6:11 PM
+  ~ Copyright (c) 2022 . All rights reserved.
+  ~ Last modified 1/5/22, 7:47 AM
+  -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
@@ -18,7 +25,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:inputType="textPersonName"
-            android:hint="Nama Menu"
+            android:hint="Nama Menu Cafe"
             />
 
         <EditText
@@ -50,7 +57,8 @@
             android:layout_below="@+id/edtDeskripsi"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            tools:srcCompat="@mipmap/ic_launcher" />
+            tools:srcCompat="@mipmap/ic_launcher"
+            />
 
         <Button
             android:id="@+id/btnChoose"
@@ -78,7 +86,7 @@
             android:layout_height="48dp"
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
-            android:text="List Food"
+            android:text="List Menu"
             android:layout_below="@+id/btnAdd"
             />
 
