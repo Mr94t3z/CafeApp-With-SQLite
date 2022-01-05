@@ -1,7 +1,7 @@
 /*
- * Created by Muhamad Taopik on 1/5/22, 6:08 PM
+ * Created by Muhamad Taopik on 1/5/22, 7:33 PM
  * Copyright (c) 2022 . All rights reserved.
- * Last modified 1/5/22, 10:50 AM
+ * Last modified 1/5/22, 7:32 PM
  */
 
 package com.mtaopik.cafeapp;
@@ -17,6 +17,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +31,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
     private TextView banner, Register;
     private EditText edtUsername, edtEmail, edtPassword;
+    private ProgressBar progressBar;
 
     private FirebaseAuth mAuth;
 
@@ -50,6 +52,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         edtUsername = (EditText) findViewById( R.id.username_text );
         edtEmail = (EditText) findViewById( R.id.email_text );
         edtPassword = (EditText) findViewById( R.id.password_text );
+
+        progressBar = (ProgressBar ) findViewById( R.id.progressBar );
     }
 
     @Override
@@ -114,9 +118,11 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                 public void onComplete(@NonNull Task<Void> task) {
 
                                     if(task.isSuccessful()) {
+                                        // redirect to login
+                                        progressBar.setVisibility( View.VISIBLE );
                                         Toast.makeText( RegisterActivity.this, "User has been registered successfully!", Toast.LENGTH_LONG).show();
-
-                                        // redirect to login layout!
+                                        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                                        startActivity(intent);
                                     } else {
                                         Toast.makeText( RegisterActivity.this, "Failed to register! Try again!", Toast.LENGTH_LONG).show();
                                     }
@@ -124,7 +130,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                             } );
 
                         } else {
-                            Toast.makeText( RegisterActivity.this, "Failed to register! Try again!", Toast.LENGTH_LONG).show();
+                            Toast.makeText( RegisterActivity.this, "Email has been registered! Try again!", Toast.LENGTH_LONG).show();
                         }
                     }
                 } );

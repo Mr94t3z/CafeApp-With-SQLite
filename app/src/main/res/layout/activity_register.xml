@@ -77,6 +77,16 @@
         android:layout_height="wrap_content"
         />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/cafe"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Register"
         android:layout_marginTop="40dp"

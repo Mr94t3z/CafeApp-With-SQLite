@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,7 +31,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private TextView register, forgotPassword;
     private EditText edtEmail, edtPassword;
+    private ProgressBar progressBar;
     private Button signIn;
+
 
     private FirebaseAuth mAuth;
 
@@ -39,7 +41,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         this.setTitle( "Login" );
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_main );
+        setContentView( R.layout.activity_login );
 
         register = ( TextView ) findViewById( R.id.Register );
         register.setOnClickListener( this );
@@ -53,6 +55,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         edtEmail = ( EditText ) findViewById( R.id.email_text );
         edtPassword = ( EditText ) findViewById( R.id.password_text );
 
+        progressBar = (ProgressBar ) findViewById( R.id.progressBar );
+
         mAuth = FirebaseAuth.getInstance();
 
     }
@@ -64,6 +68,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 startActivity( new Intent( this, RegisterActivity.class ) );
                 break;
             case R.id.login_button:
+                progressBar.setVisibility( View.GONE );
                 inputData();
                 userLogin();
                 break;
@@ -120,6 +125,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                     if(user.isEmailVerified()) {
                         //redirect to Home
+                        progressBar.setVisibility( View.VISIBLE );
                         startActivity( new Intent( LoginActivity.this, HomeActivity.class ) );
                     } else {
                         user.sendEmailVerification();
