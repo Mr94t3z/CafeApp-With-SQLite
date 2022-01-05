@@ -3,12 +3,14 @@
 
 Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah **Praktikum Pengembangan Aplikasi Mobile**.
 
+> Muhamad Taopik (1197050081)
+
 # Download Application
 
-- Klik [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) untuk `mengunduh` aplikasi.
+-[x] Klik [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) untuk `mengunduh` aplikasi.
 
 # Social Media
-![Social_Media](https://img.shields.io/badge/Social-Media-9cf)
+![Social_Media](https://img.shields.io/badge/Social-Media-blue)
 
 y'all can find my `social media` here:
  
