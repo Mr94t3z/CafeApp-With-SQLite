@@ -1,13 +1,13 @@
 # CafeApp With SQLite
 ![UAS_PPAM](https://img.shields.io/badge/UTS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-CafeApp-blue)
 
-Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah **Praktikum Pengembangan Aplikasi Mobile**.
-
 > Muhamad Taopik (1197050081)
+
+Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah **Praktikum Pengembangan Aplikasi Mobile**.
 
 # Download Application
 
--[x] Klik [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) untuk `mengunduh` aplikasi.
+[x] Klik [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) untuk `mengunduh` aplikasi.
 
 # Social Media
 ![Social_Media](https://img.shields.io/badge/Social-Media-blue)
