@@ -8,8 +8,8 @@ Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah **Prak
 # Download Application
 ![Download_Resources](https://img.shields.io/badge/Download%20Resources-CafeApp%20With%20SQLite-blue) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Mr94t3z/CafeApp-With-SQLite/blob/master/LICENSE)
 
-- [CafeApp v.1.0](https://github.com/Mr94t3z/CafeApp) - _klik untuk `melihat` versi sebelumnya_.
-- [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) - _klik untuk `mengunduh` aplikasi_.
+- [CafeApp v1.0](https://github.com/Mr94t3z/CafeApp) - _klik untuk `melihat` versi sebelumnya_.
+- [CafeApp v2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) - _klik untuk `mengunduh` aplikasi_.
 
 # Social Media
 ![Social_Media](https://img.shields.io/badge/Social-Media-blue)
