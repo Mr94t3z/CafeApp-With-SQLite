@@ -1,13 +1,15 @@
 # CafeApp With SQLite
-![UAS_PPAM](https://img.shields.io/badge/UAS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-CafeApp-blue)
+![UAS_PPAM](https://img.shields.io/badge/UAS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-CafeApp%20With%20SQLite-blue)
 
 > Muhamad Taopik (1197050081)
 
 Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah **Praktikum Pengembangan Aplikasi Mobile**.
 
 # Download Application
+![Download_Resources](https://img.shields.io/badge/Download%20Resources-CafeApp%20With%20SQLite-blue) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Mr94t3z/CafeApp-With-SQLite/blob/master/LICENSE)
 
-- [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) klik untuk `mengunduh` aplikasi.
+- [CafeApp v.1.0](https://github.com/Mr94t3z/CafeApp) - _klik untuk `melihat` versi sebelumnya_.
+- [CafeApp v.2.0](https://raw.githubusercontent.com/Mr94t3z/CafeApp-With-SQLite/master/application/CafeApp%20v2.0.apk) - _klik untuk `mengunduh` aplikasi_.
 
 # Social Media
 ![Social_Media](https://img.shields.io/badge/Social-Media-blue)
@@ -43,7 +45,7 @@ y'all can find my `social media` here:
 # Results
 ![Results](https://img.shields.io/badge/Results-CafeApp%20With%20SQLite-blue)
 
-Berikut merupakan `screenshot` hasil dari aplikasinya.
+Berikut merupakan `screenshot` tampilan dari aplikasinya.
 
 <h4>1. Login Layout</h4>
 
@@ -86,3 +88,4 @@ Berikut merupakan `screenshot` hasil dari aplikasinya.
 ```
 build: run!
 ```
+

@@ -5,8 +5,10 @@
   ~ Last modified 1/5/22, 4:02 PM
   -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mtaopik.cafeapp">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mtaopik.cafeapp"
+    >
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
