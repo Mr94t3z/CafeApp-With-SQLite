@@ -26,8 +26,6 @@ import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private FloatingActionButton FAB;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         this.setTitle("Menu Cafe");

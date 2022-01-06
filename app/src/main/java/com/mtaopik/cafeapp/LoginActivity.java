@@ -34,7 +34,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private ProgressBar progressBar;
     private Button signIn;
 
-
     private FirebaseAuth mAuth;
 
     @Override
